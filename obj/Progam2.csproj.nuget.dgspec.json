@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cleine\\OneDrive\\Desktop\\cSharp-pdf\\Progam2\\Progam2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cleine\\OneDrive\\Desktop\\cSharp-pdf\\Progam2\\Progam2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cleine\\OneDrive\\Desktop\\cSharp-pdf\\Progam2\\Progam2.csproj",
+        "projectName": "Progam2",
+        "projectPath": "C:\\Users\\cleine\\OneDrive\\Desktop\\cSharp-pdf\\Progam2\\Progam2.csproj",
+        "packagesPath": "C:\\Users\\cleine\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleine\\OneDrive\\Desktop\\cSharp-pdf\\Progam2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cleine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Syncfusion.Pdf.Net.Core": {
+              "target": "Package",
+              "version": "[23.1.36, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
